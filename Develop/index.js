@@ -1,5 +1,4 @@
-const path = require("path");
-const fs = require("fs");
+
 const express = require("express");
 
 const router = express();
@@ -16,6 +15,10 @@ const operation = [
 
 ];
 
+for (let i = 0; i < operation.length; i++) {
+    router.use(operation[i]);
+};
+
 
 
 
@@ -24,3 +27,4 @@ const operation = [
 
 router.listen(PORT, () => console.log(`note taking app is listening on port ${PORT
     }`));
+
