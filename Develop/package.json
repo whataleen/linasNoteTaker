@@ -4,7 +4,7 @@
   "description": "app that take notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index"
   },
   "author": "",
   "license": "ISC",
