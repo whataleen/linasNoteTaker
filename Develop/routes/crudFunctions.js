@@ -28,8 +28,6 @@ function crud(self) {
             return console.log(`Added new note with the title ${addedElement.title}`);
         });
 
-        //show one
-
 
         //delete
         self.delete('/api/notes/:title', function (req, res) {
