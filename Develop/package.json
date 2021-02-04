@@ -4,7 +4,8 @@
   "description": "app that take notes",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "author": "",
   "license": "ISC",
